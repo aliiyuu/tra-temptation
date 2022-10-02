@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Tra Temptation</title>
+  <link rel="icon" type="image/x-icon" href="https://images.vexels.com/media/users/3/240168/isolated/lists/d17a578c03915b108a4c162b62c13fd3-boba-tea-illustration.png">
+  <link rel="stylesheet" href="tra.css">
+  <script src="tra.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav>
+    <div class="nav-items">
+      <a href="#cart" class="nav-text">view cart</a>
+      <a class="nav-separators">•</a>
+      <a href="#specialty" class="nav-text">specialty milk tea</a>
+      <a class="nav-separators">•</a>
+      <a href="#premium" class="nav-text">premium fruit tea</a>
+      <a class="nav-separators">•</a>
+      <a href="#macchiato" class="nav-text">tea macchiato</a>
+      <a class="nav-separators">•</a>
+      <a href="#tea" class="nav-text">tea</a>
+      <a class="nav-separators">•</a>
+      <a href="#beverages" class="nav-text">non-caffeinated beverages</a>
+      <a class="nav-separators">•</a>
+      <a href="#snacks" class="nav-text">snacks</a>
+      <a class="nav-separators">•</a>
+      <a href="#top" class="nav-text">back to top</a>
+    </div>    
+  </nav>
+
+  <div class="hero" id="top">
+    <br>
+    <h1 class="main-heading" style="color:#c76592">tra temptation</h1>
+    <div class="location">
+      <img class="location-icon" src="https://www.pngkey.com/png/full/235-2350342_location-white-location-icon-with-transparent-background.png" style="display:inline">
+      <a style="color:#c76592" class="location-text">&nbsp; &nbsp;</a>
+      <a style="color:#c76592" class="location-text">3245 sierra rd, san jose, ca 95132</a>
+    </div>
+    <h2 style="color:#c76592">bubble tea • snacks</h2><br>
+    <div class="description">
+      <p>Tra Temptation is a cozy boba shop in San Jose that sells everything from classic jasmine tea to crispy delights. Come try something new or just hang out!</p>
+    </div>
+
+    <div class="gallery">
+      <img class="gallery-item" src="https://drive.google.com/uc?export=view&id=1Pae-7-jFRleNW1e6fOnN231OpB7-H7H6">
+      <img class="gallery-item" src="https://drive.google.com/uc?export=view&id=1IGyOSvOu-KV-hk2IsXHPesUGNuk4gmm3">
+      <img class="gallery-item" src="https://drive.google.com/uc?export=view&id=1aoeTmaUfpC7wWJcRSMNL0nnJSx_Ra10Y">
+      <img class="gallery-item" src="https://drive.google.com/uc?export=view&id=108IL8fyLArt8MLCZFUlt5Cm_kXClPzjK">
+      <img class="gallery-item" src="https://drive.google.com/uc?export=view&id=1y6Vil08zM1zmedCOoiXdumfwfl-ELW9I">
+    </div>
+    <br><br>
+  </div>
+
+  <h3 id="specialty">specialty milk tea</h3>
+  <div class="menu-section">
+    <div class="menu-item">
+      <h4 id="yin-dragon">Yin Dragon Milk Tea | $6.50</h4>
+      <img src="https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_150,q_auto:low,fl_lossy,dpr_2.0,c_fill,f_auto,h_130,g_auto/stuo912tn8gxawzqsmcx" class="featured-image">
+      <p>Green oolong milk tea with boba and grass jelly.</p>
+      <div class="order-button">
+        <button type="button" onclick="addYinDragon()"><p class="button-text" style="font-size:150%">ADD TO CART</p></button>
+      </div><br><br>
+    </div>
+
+    <div class="menu-item">
+      <h4 id="mountain-flower">Mountain Flower Milk Tea | $6.50</h4>
+      <img src="https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_150,q_auto:low,fl_lossy,dpr_2.0,c_fill,f_auto,h_130,g_auto/xg6ox5q90dnqyukyhafr" class="featured-image">
+      <p>Jasmine green milk tea with boba and egg pudding.</p>
+      <div class="order-button">
+        <button type="button" onclick="addMountainFlower()"><p class="button-text" style="font-size:150%">ADD TO CART</p></button>
+      </div><br><br>
+    </div>
+  </div>
+
+  <div class="menu-section">
+    <div class="menu-item">
+      <h4 id="thai-sensation">Thai Sensation Milk Tea | $6.50</h4>
+      <img src="https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_150,q_auto:low,fl_lossy,dpr_2.0,c_fill,f_auto,h_130,g_auto/y2ggrfkuwuvebs6pcby8" class="featured-image">
+      <p>Fusion Thai tea with boba.</p>
+      <div class="order-button">
+        <button type="button" onclick="addThaiSensation()"><p class="button-text" style="font-size:150%">ADD TO CART</p></button>
+      </div><br><br>
+    </div>
+
+    <div class="menu-item">
+      <h4 id="strawberry-tropic">Strawberry Tropic Milk Tea | $6.50</h4>
+      <img src="https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_150,q_auto:low,fl_lossy,dpr_2.0,c_fill,f_auto,h_130,g_auto/f3cj4t13macnnl0eg2u1" class="featured-image">
+      <p>Sweet and creamy green milk tea mixed with house-made strawberry sauce and boba.</p>
+      <div class="order-button">
+        <button type="button" onclick="addStrawberryTropic()"><p class="button-text" style="font-size:150%">ADD TO CART</p></button>
+      </div><br><br>
+    </div>
+  </div>
+
+  <div class="menu-section">
+    <div class="menu-item">
+      <h4 id="endearing-keira">Endearing Keira Milk Tea | $6.50</h4>
+      <img src="https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_150,q_auto:low,fl_lossy,dpr_2.0,c_fill,f_auto,h_130,g_auto/lmdabc9qubc9hf8aujo0" class="featured-image">
+      <p>Creamy and aromatic green milk tea mixed with house-made sauce, heart jellies and peach chunks.</p>
+      <div class="order-button">
+        <button type="button" onclick="addEndearingKeira()"><p class="button-text" style="font-size:150%">ADD TO CART</p></button>
+      </div><br><br>
+    </div>
+
+    <div class="menu-item">
+      <h4 id="winterland">Winterland Milk Tea | $6.50</h4>
+      <img src="https://drive.google.com/uc?export=view&id=19ab8RVt2rgWABY_QCuKTgcuCgB2vHBwd" class="featured-image">
+      <p>Soothing and aromatic green milk tra mixed with housemade sauce and boba.</p>
+      <div class="order-button">
+        <button type="button" onclick="addWinterland()"><p class="button-text" style="font-size:150%">ADD TO CART</p></button>
+      </div><br><br>
+    </div>
+  </div>
+
+  <div class="menu-section">
+    <div class="menu-item">
+      <h4 id="tea-howler">Tea Howler Milk Tea | $6.50</h4>
+      <img src="https://drive.google.com/uc?export=view&id=19ab8RVt2rgWABY_QCuKTgcuCgB2vHBwd" class="featured-image">
+      <p>Japanese genmaicha milk tea with boba and crystal boba.</p>
+      <div class="order-button">
+        <button type="button" onclick="addTeaHowler()"><p class="button-text" style="font-size:150%">ADD TO CART</p></button>
+      </div><br><br>
+    </div>
+
+    <div class="menu-item">
+      <h4 id="matcha-latte">Matcha Latte | $6.50</h4>
+      <img src="https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_150,q_auto:low,fl_lossy,dpr_2.0,c_fill,f_auto,h_130,g_auto/iwk120vvkhgs5koifvk4" class="featured-image">
+      <p>Japanese Inspired Latte + Healthy Green Tea and Dairy Mix.</p>
+      <div class="order-button">
+        <button type="button" onclick="addMatchaLatte()"><p class="button-text" style="font-size:150%">ADD TO CART</p></button>
+      </div><br><br>
+    </div>
+  </div>
+
+  <h3 id="premium">premium fruit tea</h3>
+  <div class="menu-section">
+    <div class="menu-item">
+      <h4 id="fruity-samurai">Fruity Samurai Tea | $6.50</h4>
+      <img src="https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_150,q_auto:low,fl_lossy,dpr_2.0,c_fill,f_auto,h_130,g_auto/c6qx3y1n8twjp9yoep6w" class="featured-image">
+      <p>Green tea with watermelon, lime, apple slices.</p>
+      <div class="order-button">
+        <button type="button" onclick="addFruitySamurai()"><p class="button-text" style="font-size:150%">ADD TO CART</p></button>
+      </div><br><br>
+    </div>
+
+    <div class="menu-item">
+      <h4 id="tropical-twister">Tropical Twister Tea | $6.50</h4>
+      <img src="https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_150,q_auto:low,fl_lossy,dpr_2.0,c_fill,f_auto,h_130,g_auto/upvznivg4a3uwlawcfs2" class="featured-image">
+      <p>Green tea with passion fruit, lychee or strawberry fruit bits, basil seeds, mints.</p>
+      <div class="order-button">
+        <button type="button" onclick="addTropicalTwister()"><p class="button-text" style="font-size:150%">ADD TO CART</p></button>
+      </div><br><br>
+    </div>
+  </div>
+
+  <div class="menu-section">
+    <div class="menu-item">
+      <h4 id="chilled-blossom">Chilled Blossom Tea | $6.50</h4>
+      <img src="https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_150,q_auto:low,fl_lossy,dpr_2.0,c_fill,f_auto,h_130,g_auto/hzszne2q0aflwcvju9yj" class="featured-image">
+      <p>Green tea with rainbow jelly, basil seeds, mints.</p>
+      <div class="order-button">
+        <button type="button" onclick="addChilledBlossom()"><p class="button-text" style="font-size:150%">ADD TO CART</p></button>
+      </div><br><br>
+    </div>
+
+    <div class="menu-item">
+      <h4 id="zestful-alex">Zestful Alex Tea | $6.50</h4>
+      <img src="data:image/jpeg;base64,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" class="featured-image">
+      <p>Green tea with fresh strawberry, mango fruit bits, boba.</p>
+      <div class="order-button">
+        <button type="button" onclick="addZestfulAlex()"><p class="button-text" style="font-size:150%">ADD TO CART</p></button>
+      </div><br><br>
+    </div>
+  </div>
+
+  <div class="menu-section">
+    <div class="menu-item">
+      <h4 id="sweet-kendra">Sweet Kendra Tea | $6.50</h4>
+      <img src="https://drive.google.com/uc?export=view&id=1Cpsg6GyhwSlptRpw0CX6Zu4H7P8eH5oM" class="featured-image">
+      <p>Green tea with lychee bits, lychee jelly.</p>
+      <div class="order-button">
+        <button type="button" onclick="addSweetKendra()"><p class="button-text" style="font-size:150%">ADD TO CART</p></button>
+      </div><br><br>
+    </div>
+
+    <div class="menu-item">
+      <h4 id="delightful-sophia">Delightful Sophia Tea | $6.50</h4>
+      <img src="https://drive.google.com/uc?export=view&id=19ab8RVt2rgWABY_QCuKTgcuCgB2vHBwd" class="featured-image">
+      <p>Green tea with peach chunks.</p>
+      <div class="order-button">
+        <button type="button" onclick="addDelightfulSophia()"><p class="button-text" style="font-size:150%">ADD TO CART</p></button>
+      </div><br><br>
+    </div>
+  </div>
+
+  <div class="menu-section">
+    <div class="menu-item">
+      <h4 id="mango-sunrise">Mango Sunrise Tea | $6.50</h4>
+      <img src="https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_150,q_auto:low,fl_lossy,dpr_2.0,c_fill,f_auto,h_130,g_auto/rp068qxfjj7qyo79py28" class="featured-image">
+      <p>Green tea with fresh mango chunks.</p>
+      <div class="order-button">
+        <button type="button" onclick="addMangoSunrise()"><p class="button-text" style="font-size:150%">ADD TO CART</p></button>
+      </div><br><br>
+    </div>
+
+    <div class="menu-item">
+      <h4 id="winter-melon-breeze">Winter Melon Breeze Tea | $6.50</h4>
+      <img src="https://drive.google.com/uc?export=view&id=19ab8RVt2rgWABY_QCuKTgcuCgB2vHBwd" class="featured-image">
+      <p>Refreshing green tea with winter melon juice and aloe vera.</p>
+      <div class="order-button">
+        <button type="button" onclick="addWintermelonBreeze()"><p class="button-text" style="font-size:150%">ADD TO CART</p></button>
+      </div><br><br>
+    </div>
+  </div>
+
+  <h3 id="macchiato">tea macchiato</h3>
+  <div class="menu-section">
+    <div class="menu-item">
+      <h4 id="oolong-tea-macchiato">Oolong Tea Macchiato | $5.50</h4>
+      <img src="https://drive.google.com/uc?export=view&id=19ab8RVt2rgWABY_QCuKTgcuCgB2vHBwd" class="featured-image">
+      <p>Topped with salted cheese foam.</p>
+      <div class="order-button">
+        <button type="button" onclick="addOolongMacchiato()"><p class="button-text" style="font-size:150%">ADD TO CART</p></button>
+      </div><br><br>
+    </div>
+
+    <div class="menu-item">
+      <h4 id="jasmine-tea-macchiato">Jasmine Tea Macchiato | $5.50</h4>
+      <img src="https://drive.google.com/uc?export=view&id=19ab8RVt2rgWABY_QCuKTgcuCgB2vHBwd" class="featured-image">
+      <p>Topped with salted cheese foam.</p>
+      <div class="order-button">
+        <button type="button" onclick="addJasmineMacchiato()"><p class="button-text" style="font-size:150%">ADD TO CART</p></button>
+      </div><br><br>
+    </div>
+  </div>
+
+  <h3 id="tea">tea</h3>
+  <div class="menu-section">
+    <div class="menu-item">
+      <h4 id="jasmine-tea">Jasmine Tea Macchiato | $5.00</h4>
+      <img src="https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_150,q_auto:low,fl_lossy,dpr_2.0,c_fill,f_auto,h_130,g_auto/rt9eqhlgdf6fk7tmyxwi" class="featured-image">
+      <p>Topped with salted cheese foam.</p>
+      <div class="order-button">
+        <button type="button" onclick="addJasmineTea()"><p class="button-text" style="font-size:150%">ADD TO CART</p></button>
+      </div><br><br>
+    </div>
+
+    <div class="menu-item">
+      <h4 id="oolong-tea">Oolong Tea Macchiato | $5.00</h4>
+      <img src="https://drive.google.com/uc?export=view&id=19ab8RVt2rgWABY_QCuKTgcuCgB2vHBwd" class="featured-image">
+      <p>Topped with salted cheese foam.</p>
+      <div class="order-button">
+        <button type="button" onclick="addOolongTea()"><p class="button-text" style="font-size:150%">ADD TO CART</p></button>
+      </div><br><br>
+    </div>
+  </div>
+
+  <div class="menu-section">
+    <div class="menu-item">
+      <h4 id="jasmine-signature">Jasmine Signature Tea | $5.00</h4>
+      <img src="https://drive.google.com/uc?export=view&id=19ab8RVt2rgWABY_QCuKTgcuCgB2vHBwd" class="featured-image">
+      <p>Make it hot, add milk for an additional charge.</p>
+      <div class="order-button">
+        <button type="button" onclick="addJasmineSignature()"><p class="button-text" style="font-size:150%">ADD TO CART</p></button>
+      </div><br><br>
+    </div>
+
+    <div class="menu-item">
+      <h4 id="oolong-signature">Oolong Signature Tea | $5.00</h4>
+      <img src="https://drive.google.com/uc?export=view&id=19ab8RVt2rgWABY_QCuKTgcuCgB2vHBwd" class="featured-image">
+      <p>Make it hot, add milk for an additional charge.</p>
+      <div class="order-button">
+        <button type="button" onclick="addOolongSignature()"><p class="button-text" style="font-size:150%">ADD TO CART</p></button>
+      </div><br><br>
+    </div>
+  </div>
+
+  <h3 id="beverages">non-caffeinated beverages</h3>
+  <div class="menu-section">
+    <div class="menu-item">
+      <h4 id="lemony-delight">Lemony Delight | $5.00+</h4>
+      <img src="https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_150,q_auto:low,fl_lossy,dpr_2.0,c_fill,f_auto,h_130,g_auto/o3fbsfthhkdqdtwgazsh" class="featured-image">
+      <p>Topped with salted cheese foam.</p>
+      <div class="order-button">
+        <button type="button" onclick="addLemonyDelight()"><p class="button-text" style="font-size:150%">ADD TO CART</p></button>
+      </div><br><br>
+    </div>
+
+    <div class="menu-item">
+      <h4 id="passion-infusion">Passion Infusion | $5.50</h4>
+      <img src="https://drive.google.com/uc?export=view&id=15RmpNWqmWNpsl94fGSMZNUiN-4WsdA5v" class="featured-image">
+      <p>Sweet and aromatic passion fruit with nuances of citrus, rainbow jelly.</p>
+      <div class="order-button">
+        <button type="button" onclick="addPassionInfusion()"><p class="button-text" style="font-size:150%">ADD TO CART</p></button>
+      </div><br><br>
+    </div>
+  </div>
+
+  <div class="menu-section">
+    <div class="menu-item last-item">
+      <h4 id="strawberry-smoothie">Strawberry Smoothie | $6.50</h4>
+      <img src="https://drive.google.com/uc?export=view&id=19ab8RVt2rgWABY_QCuKTgcuCgB2vHBwd" class="featured-image">
+      <br><br><div class="order-button">
+        <button type="button" onclick="addStrawberrySmoothie()"><p class="button-text" style="font-size:150%">ADD TO CART</p></button>
+      </div><br><br>
+    </div>
+  </div>
+
+  <h3 id="snacks">snacks</h3>
+  <div class="menu-section">
+    <div class="menu-item">
+      <h4 id="popcorn-chicken">Popcorn Chicken | $6.75</h4>
+      <img src="https://drive.google.com/uc?export=view&id=1OOCkBEDMq_lFMOJJtjapYfuEfb9KYc0t" class="featured-image">      <p>Topped with salted cheese foam.</p>
+      <div class="order-button">
+        <button type="button" onclick="addPopcornChicken()"><p class="button-text" style="font-size:150%">ADD TO CART</p></button>
+      </div><br><br>
+    </div>
+
+    <div class="menu-item">
+      <h4 id="waffle-fries">Waffle Fries | $6.75</h4>
+      <img src="https://drive.google.com/uc?export=view&id=19ab8RVt2rgWABY_QCuKTgcuCgB2vHBwd" class="featured-image">
+      <p>Sweet and aromatic passion fruit with nuances of citrus, rainbow jelly.</p>
+      <div class="order-button">
+        <button type="button" onclick="addWaffleFries()"><p class="button-text" style="font-size:150%">ADD TO CART</p></button>
+      </div><br><br>
+    </div>
+  </div>
+
+  <h3 id="cart">cart contents</h3>
+  <div class="description">
+    <br><br><h3>total</h3>
+    <h3 style="font-size: 120%" id="total">$0.00</h3>
+    <p id="cart-contents">Welcome to your cart! Items you add will appear here.<br><br></p>
+    <div class="order-button">
+      <a><button type="button" onclick="reset()"><p class="button-text" style="font-size:140%">&nbsp;&nbsp;RESET&nbsp;&nbsp;</p></button></a>
+    </div>
+    <br><br>
+  </div>
+  <br>
+  <div class="order-button">
+    <a href="https://www.grubhub.com/restaurant/tra-temptation-3245-sierra-rd-san-jose/2258393" target="_blank"><button type="button"><p class="button-text" style="font-size:150%">PROCEED TO CHECKOUT</p></button></a>
+  </div>
+  
+  <footer>
+    <p style="padding: 0%; text-align: center">© 2022 Alicia Yu. Not affiliated with Tra Temptation.</p>
+  </footer>
+</body>
+</html>
